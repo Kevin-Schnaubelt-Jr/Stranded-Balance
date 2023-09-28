@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Crystal SEAM</title>
+    <!-- attach style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- import main.js -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="main-div">
+        <div class="label-div">
+            <p class="building-name">Name</p>
+            <p class="building-number">#</p>
+            <p class="building-cost">Cost</p>
+            <p class="building-CpS">CpS</p>
+            <p class="building-buy">Buy</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Wood Chopper</p>
+            </div>
+            <input id="WoodChopperNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="WoodChopperCost" class="building-cost">11</p>
+            <p id="WoodChopperCpS" class="building-CpS">8</p>
+            <p id="WoodChopperBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Sawmill</p>
+            </div>
+            <input id="SawmillNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="SawmillCost" class="building-cost">120</p>
+            <p id="SawmillCpS" class="building-CpS">47</p>
+            <p id="SawmillBuy" class="building-buy">0</p>
+        </div>
+        <div class="building-div">
+            <div class="building-name">
+                <p>Demo Extra</p>
+            </div>
+            <input id="DemoExtraNumber" class="building-number" type="text" enterkeyhint="done"/>
+            <p id="DemoExtraCost" class="building-cost">120</p>
+            <p id="DemoExtraCpS" class="building-CpS">47</p>
+            <p id="DemoExtraBuy" class="building-buy">0</p>
+        </div>
+
+        <br>
+
+        <div id="prod-div" class="label-div">
+            <p id="currentCrystalsShow">Current Wood: </p>
+            <input id="currentCrystals" type="text" enterkeyhint="done"/>
+            <p id="totalCpS">Total CpS: 0</p>
+        </div>
+
+        <br>
+
+        <p class="best-buy">Best Buys!</p>
+        <p id="best-buy-1" class="best-buy">1: blank</p>
+        <p id="best-buy-2" class="best-buy">2: blank</p>
+        <p id="best-buy-3" class="best-buy">3: blank</p>
+
+        <br>
+
+        <div id="local-storage-controls-div" >
+            <button class="local-storage-button" onclick="clearStorage()">Clear Local Storage</button>
+        </div>
+    </div>
+</body>
+</html>

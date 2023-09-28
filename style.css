@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+
+#main-div {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.label-div {
+    display: flex;
+}
+
+.building-div {
+    display: flex;
+}
+
+.building-name {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+
+.building-number {
+    width: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.building-doubles {
+    width: 2rem;
+}
+
+.building-cost {
+    width: 3.5rem;
+}
+
+.building-CpS {
+    width: 4rem;
+    margin-left: 0.2rem;
+}
+
+.building-buy {
+    width: 4rem;
+    margin-left: 0.1rem;
+}
+
+.best-buy {
+    width: 10rem;
+    margin-left: 0.1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ 
+}
+
+.building-upgrade {
+    width: 4.3rem;
+}
+
+.lucky-radio {
+    margin-left: 0.5rem;
+}
+
+#prod-div {
+    display: flex;
+}
+
+#prod-div > * {
+    width: 8rem;
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+#currentCrystals {
+    width: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#prodBoosts-div {
+    display: flex;
+}
+
+.prod-milk {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.prod-flavor {
+    width: 1.75rem;
+    margin-right: 0.5rem;
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+#prodUpgrade {
+    width: 4.3rem;
+}
+
+.kitten-div {
+    display: flex;
+    text-align: center;
+}
+
+.kitten-div > * {
+    width: 5rem;
+}
+
+#prestige-div {
+    margin-top: 0.5rem;
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+#prestigeNumber {
+    width: 5rem;
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+#prestige-radios {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+    width: 16rem;
+}
+
+#local-storage-controls-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#heralds {
+    width: 5rem;
+}
+

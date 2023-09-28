@@ -1,0 +1,1 @@
+https://kevin-schnaubelt-jr.github.io/Crystal-Clicker-Calculator/
