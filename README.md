@@ -1,4 +1,4 @@
-[Calculator Link](https://kevin-schnaubelt-jr.github.io/Stranded-Balance/)
+# [Calculator Link](https://kevin-schnaubelt-jr.github.io/Stranded-Balance/)
 
 # BALANCE STATES
 
